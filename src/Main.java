@@ -10,70 +10,107 @@ public class Main {
 
         King whiteKing = new King("WKng", 7, 4, Team.WHITE);
         piecesCollection.put(whiteKing.id, whiteKing);
+        chessBoard[7][4] = whiteKing.id;
         Queen whiteQueen = new Queen("WQueen", 7, 3, Team.WHITE);
         piecesCollection.put(whiteQueen.id, whiteQueen);
+        chessBoard[7][3] = whiteQueen.id;
         Bishop whiteBhisop1 = new Bishop("WBishop1", 7, 2, Team.WHITE);
         piecesCollection.put(whiteBhisop1.id, whiteBhisop1);
+        chessBoard[7][2] = whiteBhisop1.id;
         Horse whiteHorse1 = new Horse("WHorse1", 7, 1, Team.WHITE);
+        chessBoard[7][1] = whiteHorse1.id;
         piecesCollection.put(whiteHorse1.id, whiteHorse1);
         Rook whiteRook1 = new Rook("WRook1", 7, 0, Team.WHITE);
         piecesCollection.put(whiteRook1.id, whiteRook1);
+        chessBoard[7][0] = whiteRook1.id;
         Bishop whiteBhisop2 = new Bishop("WBishop2", 7, 5, Team.WHITE);
         piecesCollection.put(whiteBhisop2.id, whiteBhisop2);
+        chessBoard[7][5] = whiteBhisop2.id;
         Horse whiteHorse2 = new Horse("WHorse2", 7, 6, Team.WHITE);
         piecesCollection.put(whiteHorse2.id, whiteHorse2);
+        chessBoard[7][6] = whiteHorse2.id;
         Rook whiteRook2 = new Rook("WRook2", 7, 7, Team.WHITE);
         piecesCollection.put(whiteRook2.id, whiteRook2);
+        chessBoard[7][7] = whiteRook2.id;
         Pawn whitePawn1 = new Pawn("WPawn1", 6, 0, Team.WHITE);
         piecesCollection.put(whitePawn1.id, whitePawn1);
+        chessBoard[6][0] = whitePawn1.id;
         Pawn whitePawn2 = new Pawn("WPawn2", 6, 1, Team.WHITE);
         piecesCollection.put(whitePawn2.id, whitePawn2);
+        chessBoard[6][1] = whitePawn2.id;
         Pawn whitePawn3 = new Pawn("WPawn3", 6, 2, Team.WHITE);
         piecesCollection.put(whitePawn3.id, whitePawn3);
+        chessBoard[6][2] = whitePawn3.id;
         Pawn whitePawn4 = new Pawn("WPawn4", 6, 3, Team.WHITE);
         piecesCollection.put(whitePawn4.id, whitePawn4);
+        chessBoard[6][3] = whitePawn4.id;
         Pawn whitePawn5 = new Pawn("WPawn5", 6, 4, Team.WHITE);
         piecesCollection.put(whitePawn5.id, whitePawn5);
+        chessBoard[6][4] = whitePawn5.id;
         Pawn whitePawn6 = new Pawn("WPawn6", 6, 5, Team.WHITE);
         piecesCollection.put(whitePawn6.id, whitePawn6);
+        chessBoard[6][5] = whitePawn6.id;
         Pawn whitePawn7 = new Pawn("WPawn7", 6, 6, Team.WHITE);
         piecesCollection.put(whitePawn7.id, whitePawn7);
+        chessBoard[6][6] = whitePawn7.id;
         Pawn whitePawn8 = new Pawn("WPawn8", 6, 7, Team.WHITE);
         piecesCollection.put(whitePawn8.id, whitePawn8);
+        chessBoard[6][7] = whitePawn8.id;
 
 
         King blackKing = new King("BKng", 0, 4, Team.BLACK);
         piecesCollection.put(blackKing.id, blackKing);
+        chessBoard[0][4] = blackKing.id;
         Queen blackQueen = new Queen("BQueen", 0, 3, Team.BLACK);
         piecesCollection.put(blackQueen.id, blackQueen);
+        chessBoard[0][3] = blackQueen.id;
         Bishop blackBhisop1 = new Bishop("BlBishop1", 0, 2, Team.BLACK);
         piecesCollection.put(blackBhisop1.id, blackBhisop1);
+        chessBoard[0][2] = blackBhisop1.id;
         Horse blackHorse1 = new Horse("BHorse1", 0, 1, Team.BLACK);
         piecesCollection.put(blackHorse1.id, blackHorse1);
+        chessBoard[0][1] = blackHorse1.id;
         Rook blackRook1 = new Rook("BRook1", 0, 0, Team.BLACK);
         piecesCollection.put(blackRook1.id, blackRook1);
+        chessBoard[0][0] = blackRook1.id;
         Bishop blackBhisop2 = new Bishop("BlBishop2", 0, 5, Team.BLACK);
         piecesCollection.put(blackBhisop2.id, blackBhisop2);
+        chessBoard[0][5] = blackBhisop2.id;
         Horse blackHorse2 = new Horse("BHorse2", 0, 6, Team.BLACK);
         piecesCollection.put(blackHorse2.id, blackHorse2);
+        chessBoard[0][6] = blackHorse2.id;
         Rook blackRook2 = new Rook("BRook2", 0, 7, Team.BLACK);
         piecesCollection.put(blackRook2.id, blackRook2);
+        chessBoard[0][7] = blackRook2.id;
         Pawn blackPawn1 = new Pawn("BPawn1", 1, 0, Team.BLACK);
         piecesCollection.put(blackPawn1.id, blackPawn1);
+        chessBoard[1][0] = blackPawn1.id;
         Pawn blackPawn2 = new Pawn("BPawn2", 1, 1, Team.BLACK);
         piecesCollection.put(blackPawn2.id, blackPawn2);
+        chessBoard[1][1] = blackPawn2.id;
         Pawn blackPawn3 = new Pawn("BPawn3", 1, 2, Team.BLACK);
         piecesCollection.put(blackPawn3.id, blackPawn3);
+        chessBoard[1][2] = blackPawn3.id;
         Pawn blackPawn4 = new Pawn("BPawn4", 1, 3, Team.BLACK);
         piecesCollection.put(blackPawn4.id, blackPawn4);
+        chessBoard[1][3] = blackPawn4.id;
         Pawn blackPawn5 = new Pawn("BPawn5", 1, 4, Team.BLACK);
         piecesCollection.put(blackPawn5.id, blackPawn5);
+        chessBoard[1][4] = blackPawn5.id;
         Pawn blackPawn6 = new Pawn("BPawn6", 1, 5, Team.BLACK);
         piecesCollection.put(blackPawn6.id, blackPawn6);
+        chessBoard[1][5] = blackPawn6.id;
         Pawn blackPawn7 = new Pawn("BPawn7", 1, 6, Team.BLACK);
         piecesCollection.put(blackPawn7.id, blackPawn7);
+        chessBoard[1][6] = blackPawn7.id;
         Pawn blackPawn8 = new Pawn("BPawn8", 1, 7, Team.BLACK);
         piecesCollection.put(blackPawn8.id, blackPawn8);
+        chessBoard[1][7] = blackPawn8.id;
 
+        for(int i= 0; i<8; i++) {
+            for (int j = 0; j < 8; j++)
+                System.out.printf(chessBoard[i][j] + " ");
+            System.out.println();
+        }
     }
 }
